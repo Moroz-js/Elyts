@@ -1,10 +1,8 @@
-import React from 'react'
-import gif from '../../../assets/images/preloader.gif'
+import React from "react";
+import gif from "../../../assets/images/preloader.gif";
 
-const Preloader:React.FC = () => {
-    return (
-        <img className='preloader' src={gif} alt="preloader" />
-    )
-}
+const Preloader: React.FC = () => {
+	return <img className="preloader" src={gif} alt="preloader" />;
+};
 
-export default Preloader
+export default Preloader;
