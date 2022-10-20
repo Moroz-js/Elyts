@@ -1,0 +1,41 @@
+.logo {
+    font-size: 64px;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    
+    
+}
+.logo_wrapper {
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        background: url('../../images/hearth.svg');
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: -15px;
+        bottom: 5px;
+    }
+}
+.links_wrapper {
+    display: flex;
+    align-items: flex-end;
+    a:first-child img {
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+        
+    }
+    a {
+        font-size: 24px;
+        font-weight: 500;
+       
+    }
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
